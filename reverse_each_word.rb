@@ -7,4 +7,4 @@ def reverse_each_word(string)
   reversearray.join()
 end
 
-reverse_each_word("ooh ooh baby")
+puts reverse_each_word("ooh ooh baby")
