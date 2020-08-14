@@ -3,5 +3,5 @@ def revrse_each_word(string)
   array.collect do |word|
     word.reverse
   end
-  put array
+  puts array
 end
