@@ -1,10 +1,10 @@
 def reverse_each_word(string)
   array = string.split(" ")
-  hi = array.collect do |word|
+  reversearray = array.collect do |word|
     word.reverse
   end
-  #how do i "save" what this collect method return
-  puts hi
+  #even though ruby methods can have new lines, i can still save them in a variable
+  reversearray.join()
 end
 
 reverse_each_word("ooh ooh baby")
